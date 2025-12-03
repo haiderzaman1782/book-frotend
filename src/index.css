@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+:root {
+  --bg-lightNavy: #cce0eb69;
+  --bg-lightSand: #f2e2d3;
+  --bg-lightPink: #eaccc2;
+  --bg-SoftPeach: #f7ede3;
+  --textBlack: #221f21;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s ease-out;
+}
